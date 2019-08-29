@@ -143,3 +143,7 @@ selPar=function(data,mnclus,mndim,ndiv,R,nstart=10)
 
 selPar(data=Boston[,-14],mnclus=5,mndim=5,ndiv=230,R=30)
 
+outRKM = cluspca(Boston[,-14], 5, 3, method = "RKM", rotation = "varimax", scale = FALSE, nstart = 10) 
+
+plot(outRKM, cludesc = TRUE)
+
