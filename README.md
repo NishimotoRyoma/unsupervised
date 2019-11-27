@@ -6,12 +6,20 @@
 
 現状では以下のコードが整理されている。
 ・フロベニウスノルムを用いた主成分分析(R)
+
 ・情報損失最小化に基づく主成分分析(R)
+
 ・カーネル主成分分析(R)
+
 ・k近傍に基づく多様体学習(R)
+
 ・Unnormalized スペクトラルクラスタリング(R,実務では非推奨)
+
 ・Normalized スペクトラルクラスタリング(Python)
+
 ・Reduced k-means (R)
-・Clustering distanceに基づくクラスタリング全般におけるパラメタチューニング(R)
-・Clustering distanceに基づくクラスタリング手法の比較(R)
+
+・Clustering distanceに基づくクラスタリング全般におけるパラメタチューニングの方法(R,Python)
+
+・Clustering distanceに基づくクラスタリング手法の比較(R,Python)
 
